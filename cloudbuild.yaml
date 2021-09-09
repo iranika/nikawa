@@ -17,7 +17,7 @@ steps:
       - "asia-northeast1"
       - "--platform"
       - "managed"
-    timeout: 1500s
+    timeout: 2500s
 images:
   - "gcr.io/$PROJECT_ID/nikawa:$COMMIT_SHA"
 timeout: 2400s
